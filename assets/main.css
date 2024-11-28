@@ -1,0 +1,36 @@
+/* assets/main.css */
+:root {
+    /* Primary Colors */
+    --color-primary: #0D0C1D;
+    --color-secondary: #161B33;
+
+    /* Accent Colors */
+    --color-accent: #474973;
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+
+    /* Text Colors */
+    --color-text-primary: #F1DAC4;
+    --color-text-secondary: #A69CAC;
+
+    /* Backgrounds */
+    --color-bg: #0D0C1D;
+    --color-bg-alt: #161B33;
+}
+  
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Ensure no default browser margins */
+    margin: 0; 
+    padding: 0;
+}  
+
+  
