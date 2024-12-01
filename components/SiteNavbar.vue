@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 35px 20px;
     background-color: var(--color-secondary);
     color: var(--color-light);
   }
@@ -49,7 +49,7 @@
   .navbar-links {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 30px;
     margin: 0;
     padding: 0;
   }

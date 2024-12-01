@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
 /* assets/main.css */
+
+/*tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     /* Primary Colors */
     --color-primary: #0D0C1D;
@@ -23,7 +31,9 @@ body {
     background-color: var(--color-bg);
     color: var(--color-text-primary);
     
-    font-family: Arial, sans-serif;
+    font-family: "Aldrich", sans-serif;
+
+    /* font-family: Arial, sans-serif; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;

@@ -2,7 +2,7 @@
     <div class="hero-section">
       <h1>LIGMA ON SOL</h1>
       <p>The coin that is more than just a meme.</p>
-      <!-- <BubbleBtn /> -->
+      <button @click="ctaAction">Click here for more info</button>
     </div>
   </template>
   
@@ -17,6 +17,7 @@
     text-align: left;
     padding: 50px;
   }
+
   button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -25,6 +26,7 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  
   button:hover {
     background-color: #0056b3;
   }
