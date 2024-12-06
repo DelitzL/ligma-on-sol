@@ -1,8 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-12-01',
+  compatibilityDate: '2024-12-06',
   devtools: { enabled: true },
-  css: ['~/assets/main.css']
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  }
 })
 
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'

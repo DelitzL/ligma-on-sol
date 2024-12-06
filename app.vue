@@ -1,7 +1,7 @@
 <!-- app.vue - for global HTML and Scripts-->
 
 <script setup>
-    import main from '~/assets/main.css';
+    import main from '~/assets/css/main.css';
     import SiteNavbar from '~/components/SiteNavbar.vue';
     import SiteFooter from '~/components/SiteFooter.vue';
 </script>
@@ -27,15 +27,6 @@
   
   .content {
     flex-grow: 1;
-  }
-  
-  .site-footer {
-    width: 100%;
-    background-color: var(--color-dark);
-    color: var(--color-light);
-    text-align: center;
-    padding: 20px;
-    margin-top: auto;
   }
 </style>
   

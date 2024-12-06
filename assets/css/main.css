@@ -19,7 +19,7 @@
     --color-danger: #dc3545;
 
     /* Text Colors */
-    --color-text-primary: #F1DAC4;
+    --color-text-primary: #FFFFFF;
     --color-text-secondary: #A69CAC;
 
     /* Backgrounds */
@@ -28,7 +28,7 @@
 }
   
 body {
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-alt);
     color: var(--color-text-primary);
     
     font-family: "Aldrich", sans-serif;
