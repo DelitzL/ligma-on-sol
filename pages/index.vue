@@ -3,6 +3,7 @@
 </script>
 
 <template>
+  <backgroundtest />
   <PageHeaderIndex 
     :imageSrc="ligmaImage" 
     title="$LIGMA ON SOL" 
