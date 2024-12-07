@@ -1,3 +1,5 @@
 <template>
-  <PageHeader title="Games" subtitle="test"/>
+  <PageHeader
+    title="Games"
+  />
 </template>

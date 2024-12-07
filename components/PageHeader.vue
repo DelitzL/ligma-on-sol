@@ -14,7 +14,7 @@ defineProps({
 <template>
     <div class="page-header">
       <h1>{{ title }}</h1>
-      <h2>{{ subtitle }}</h2>
+      <p>{{ subtitle }}</p>
     </div>
 </template>
   

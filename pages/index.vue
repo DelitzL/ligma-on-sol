@@ -5,15 +5,12 @@
 <template>
   <PageHeaderIndex 
     :imageSrc="ligmaImage" 
-    title="$LIGMA ON SOL" 
+    title="LIGMA" 
     subtitle="The coin that is more than just a meme." 
-    btntext="BUY" 
+    btntext="BUY"
+    imsgeHref="/buynow.vue"
   />
 
-      <FeaturesSection />
-
-      <h1 class="text-3xl font-bold underline">
-        This is a tailwindcss test, this text should be larger, bold, and underlined.
-      </h1>
+      <!-- <FeaturesSection /> -->
       
   </template>

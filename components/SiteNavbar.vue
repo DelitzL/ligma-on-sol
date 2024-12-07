@@ -38,7 +38,7 @@ const isMenuOpen = ref(false);
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px;
-  /* background-color: var(--color-primary); */
+  background-color: var(--color-primary);
   color: var(--color-light);
 }
 

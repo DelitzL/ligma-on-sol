@@ -1,7 +1,7 @@
 <template>
-    <div class="tweetsection">
-        <h1>Trending Tweets about $LIGMA</h1>
-    </div>
+    <PageHeader
+        title="Trending Tweets about $LIGMA"
+    />
 </template>
 
 <style scoped>

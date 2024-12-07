@@ -1,8 +1,8 @@
 <template>
-    <div class="updatetitle">
-        <h1>Crypto Blog</h1>
-        <h2>Ligma Coin Price Analysis</h2>
-    </div>
+    <PageHeader
+        title="Crypto Blog"
+        subtitle="Ligma Coin Price Analysis"
+    />
     <iframe id="dextools-widget"
         title="DEXTools Trading Chart"
         class="full-width-iframe"

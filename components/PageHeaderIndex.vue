@@ -16,6 +16,10 @@ defineProps({
     type: String,
     required: false,
   },
+  imageHref: {
+    type: String,
+    required: false,
+  }
 });
 </script>
 
@@ -35,7 +39,7 @@ defineProps({
             <p class="title">{{ title }}</p>
             <p class="subtitle">{{ subtitle }}</p>
             <div class="button-container">
-              <button class="glow-on-hover" type="button">{{ btntext }}</button>
+              <button class="glow-on-hover" type="button" :href=imageHref>{{ btntext }}</button>
             </div>
           </div>
         </div>
@@ -78,7 +82,6 @@ defineProps({
   }
   
   .page-header {
-    text-align: left;
     background-color: var(--color-primary);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
   }
@@ -93,10 +96,11 @@ defineProps({
   
   p.title {
     font-size: 80px;
+    font-weight: 900;
   }
   
   p.subtitle {
-    font-size: 20px; /* Add font size for subtitle */
+    font-size: 25px; /* Add font size for subtitle */
   }
   
   /* Responsive Adjustments for Smaller Screens */

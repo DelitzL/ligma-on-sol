@@ -21,14 +21,11 @@
     /* Text Colors */
     --color-text-primary: #FFFFFF;
     --color-text-secondary: #A69CAC;
-
-    /* Backgrounds */
-    --color-bg: #0D0C1D;
-    --color-bg-alt: #161B33;
 }
   
 body {
-    background-color: var(--color-bg-alt);
+    background-image: url('~/assets/image/general/test1.svg');
+    background-color: var(--color-secondary);
     color: var(--color-text-primary);
     
     font-family: "Aldrich", sans-serif;
